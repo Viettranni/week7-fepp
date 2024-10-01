@@ -49,7 +49,7 @@ const Signup = () => {
         <input {...dateOfBirth} />
         <label>Membership Status:</label>
         <input {...membershipStatus} />
-        <button>Sign up</button>
+        <button type="submit">Sign up</button>
       </form>
     </div>
   );
